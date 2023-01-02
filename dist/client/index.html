@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three JS</title>
-    <style>
-        body {
-            overflow: hidden;
-            margin: 0px;
-        }
-    </style>
-</head>
-<body>
-    <script type="module" src="bundle.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Three JS</title>
+        <style>
+            body {
+                overflow: hidden;
+                margin: 0px;
+            }
+
+            .smallCanvas {
+                width: 200px;
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="c1" class="smallCanvas"></canvas>
+        <canvas id="c2" class="smallCanvas"></canvas>
+        <canvas id="c3" class="smallCanvas"></canvas>
+        <canvas id="c4" class="smallCanvas"></canvas>
+        <script type="module" src="bundle.js"></script>
+    </body>
 </html>
